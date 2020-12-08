@@ -1,0 +1,29 @@
+/* #maindisplay {
+    text-align: center;
+}
+
+
+li {
+    list-style: none;
+} */
+body {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background-color: antiquewhite;
+    /* background-image: url("images/wine.jpg"); */
+    /* text-align: justify; */
+}
+
+form {
+    display: inline-block;
+}
+
+table td {
+    border-style: groove;
+}
+
+thead {
+    font-weight: bold;
+    background-color: #E501FF;
+}

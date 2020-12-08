@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body style="background: white;">
+        <div>
+          <h1 style="text-align: center;">Edit Exercise Entry</h1>
+        </div>
+        <form>
+
+          <input type="hidden" id="entryid">
+
+          <div style="align-items: center;">
+            <label>Date:</label>
+            <input type="date" id="date" autofocus required>
+          </div>
+    
+          <br>
+    
+          <div>
+            <label>Description: </label>
+            <input type="text" id="description" required>
+          </div>
+    
+          <br>
+    
+          <div>
+            <label>Duration (minutes): </label>
+            <input type="number" id="duration" min="10" max="180"  required>
+          </div>
+    
+          <br>
+    
+          <div>
+            <label>Difficulty (1-10): </label>
+            <input type="number" id="difficulty" min="1" max="10" required>
+          </div>
+    
+          <br>
+    
+          <div>
+            <label>Notes: </label>
+            <input type="text" id="notes" required>
+          </div>
+          <br>
+          <button id="editButton">Edit Entry</button>
+        </form>
+        <script src="update.js"></script>
+</body>
+</html>

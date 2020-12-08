@@ -1,0 +1,9 @@
+[x] Migrate JS from HTML into respective JS Files
+
+[x] Import and configure knex and sqlite3
+
+[x] Implement Select Logic to get everything from the database and display it to the main window
+    [x] Use table elements
+
+[x] Implement Add Wine logic to ensure that it gets put into database
+    [x] 

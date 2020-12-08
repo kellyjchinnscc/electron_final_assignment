@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Exercise</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="background: white;">
+    <div>
+      <h1 style="text-align: center;">New Exercise Entry</h1>
+    </div>
+    
+    <form>
+      <div style="align-items: center;">
+        <label>Date:</label>
+        <input type="date" id="date" autofocus required>
+      </div>
+
+      <br>
+
+      <div>
+        <label>Description: </label>
+        <input type="text" id="description" required>
+      </div>
+
+      <br>
+
+      <div>
+        <label>Duration (minutes): </label>
+        <input type="number" id="duration" min="10" max="180"  required>
+      </div>
+
+      <br>
+
+      <div>
+        <label>Difficulty (1-10): </label>
+        <input type="number" id="difficulty" min="1" max="10" required>
+      </div>
+
+      <br>
+
+      <div>
+        <label>Notes: </label>
+        <input type="text" id="notes" required>
+      </div>
+
+      <br>
+      <button type="submit">Add New Entry</button>
+    </form>
+
+  <script src="addWindow.js"></script>
+  </body>
+</html>
